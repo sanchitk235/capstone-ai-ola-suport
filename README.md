@@ -195,10 +195,4 @@ ola-support-agent/
 | `task13_evaluation.txt` | Task 13 — 15 query benchmark scores |
 | `task14_autogen_demo.txt` | Task 14 — autogen approval & revision cases |
 | `task15_governance_demo.txt` | Task 15 — least autonomy assert & budget error |
-| `task16_cache_demo.txt` | Task 16 — cache hit verification |
-
----
-
-## LangChain Deprecation Warning Note
-
-`RunnableWithMessageHistory` triggers a `LangChainDeprecationWarning` regarding LangGraph persistence. Per the project spec, this is expected behavior and can be ignored since in-process session memory works as intended.
+| `task16_cache_demo.txt` | Task 16 — cache hit 
